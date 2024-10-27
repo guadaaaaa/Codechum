@@ -1,0 +1,281 @@
+nav {
+  align-self: left;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height: 1;
+  color: #5c65ff;
+  font-family: "Poppins";
+}
+
+b {
+  font-weight: 700;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(11, 82px);
+  height: 500px;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+.logo {
+  width: 74px;
+  padding: 5px;
+}
+
+div {
+  display: block;
+}
+
+.hero {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.first-image {
+  grid-area: 1 / 7 / -1 / -1;
+  height: 500px;
+  align-self: center;
+  justify-self: center;
+}
+
+.p-first-text {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.h1-first-text {
+  margin-top: -20px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.second {
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.title {
+  justify-self: center;
+  font-size: 1.68rem;
+  color: black;
+  grid-column: 1 / -1;
+}
+
+.second-image {
+  padding: 10px;
+  height: 300px;
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+
+.checklist-container {
+  grid-column: 7 / 12;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.checklist div {
+  display: grid;
+  grid-template-columns: 0.24fr 1fr;
+  row-gap: 8px;
+}
+
+.checklist p {
+  color: #616161;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bottom-container {
+  grid-column: 1 / 12;
+  grid-row: 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.bottom-text {
+  color: #747474;
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.third {
+  grid-template-rows: 1fr 3fr;
+}
+
+.third-image {
+  padding: 10px;
+  height: 350px;
+  grid-column: 7 / -1;
+  grid-row: 2;
+}
+
+.third-text-container {
+  grid-column: 1 / 6;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.third-text-container p {
+  color: #747474;
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: 0.85rem;
+}
+
+.third-text-container h4 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+.fourth {
+  grid-template-rows: 1fr 3fr;
+}
+
+.coin-text {
+  text-align: center;
+  grid-column: 1 / 12;
+}
+
+.fourth div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.coin {
+  width: 10px;
+}
+
+.fourth-image {
+  padding: 10px;
+  height: 350px;
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+
+.fourth-text-container {
+  grid-column: 7 / 12;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.fourth-text-container p {
+  color: #747474;
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: 0.85rem;
+}
+
+.fourth-text-container h4 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.fifth-image {
+  padding: 10px;
+  height: 420px;
+  grid-column: 7 / -1;
+  grid-row: 2;
+}
+
+.fifth {
+  grid-template-rows: 1fr 3fr;
+}
+
+.sixth {
+  background-image: url("images/particles.svg");
+  grid-template-rows: 1fr 3fr;
+}
+
+.sixth b {
+  color: #5c65ff;
+}
+
+.sixth-image {
+  padding: 10px;
+  height: 450px;
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+
+.seventh {
+  grid-template-rows: 2fr 2fr;
+}
+
+.layer .last-container {
+  width: 250px;
+}
+
+.last-container {
+  margin: 0 auto;
+  grid-column: 4 / 9;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.layer {
+  background-image: url("images/bubble.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 380px;
+  margin: 0 auto;
+  padding: 36px 0;
+}
+
+.layer h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.layer p {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}
+
+.seventh h3 {
+  margin-top: -30px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
